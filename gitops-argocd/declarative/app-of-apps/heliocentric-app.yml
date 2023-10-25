@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/srujan259/argocd-gitops.git
     targetRevision: HEAD
-    path: ./declarative/manifests/heliocentric-model
+    path: ./gitops-argocd/declarative/manifests/heliocentric-model
    
   destination:
     server: https://kubernetes.default.svc
